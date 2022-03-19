@@ -1,0 +1,26 @@
+{
+  "name": "crevillo/flex-test",
+  "description": "Ibexa Prototype Base",
+  "license": "TTL-2.0",
+  "type": "symfony-bundle",
+
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^7.4 || ^8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0",
+    "ibexa/code-style": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Crevillo\\FlexTest\\Bundle": "src/bundle/",
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
