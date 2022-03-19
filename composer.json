@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Crevillo\\FlexTest\\Bundle": "src/bundle/",
+      "Crevillo\\FlexTest\\Bundle": "src/bundle/"
     }
   },
   "extra": {
